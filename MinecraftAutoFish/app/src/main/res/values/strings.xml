@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Auto Fish MCPE</string>
+    <string name="accessibility_service_description">Cho phép app tự động chạm màn hình để câu cá trong Minecraft PE.</string>
+</resources>

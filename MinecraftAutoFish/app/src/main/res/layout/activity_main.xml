@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auto Fish - Minecraft PE"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStep1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bước 1: Cấp quyền Accessibility (chưa cấp)"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mở cài đặt Accessibility"/>
+
+    <TextView
+        android:id="@+id/tvStep2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bước 2: Cấp quyền hiển thị đè (chưa cấp)"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:id="@+id/btnOverlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mở cài đặt Overlay"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giới hạn số lần thả cần (0 = không giới hạn)"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <EditText
+            android:id="@+id/etMaxUses"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="Ví dụ: 60"/>
+        <Button
+            android:id="@+id/btnSaveMaxUses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStep3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bước 3: Chọn vùng phao câu trên màn hình"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:id="@+id/btnPickRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn vùng phao câu"/>
+
+    <TextView
+        android:id="@+id/tvStep4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bước 4: Bắt đầu tự động câu cá"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu quay màn hình + Auto Fish"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="13sp"
+        android:textColor="#888888"
+        android:text="Ghi chú: mở Minecraft PE, đứng cạnh nước, cầm cần câu, đưa tầm ngắm vào mặt nước rồi mới bấm 'Chọn vùng phao câu' để đánh dấu đúng vị trí phao sẽ rơi xuống."/>
+
+</LinearLayout>
